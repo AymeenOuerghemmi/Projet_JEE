@@ -22,7 +22,7 @@ public class TestDao {
 	for(Matiere m : mati)
 		System.out.println(m);*/
 	/*	TirageDaoImpl cdao = new TirageDaoImpl();
-		Tirage tir = cdao.save(new Tirage("test",19-04-2019,19-04-2019, "encour","ahmad"));
+		Tirage tir = cdao.save(new Tirage("test","2024-05-19", "2024-05-19", "encour","ahmad"));
 		System.out.println(tir);
 		List<Tirage> mati= cdao.tirageParMC("Gr3");
 		for(Tirage m : mati)
